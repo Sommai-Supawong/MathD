@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Adds space between the two containers */
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    width: auto;
+    max-width: 800px;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table { /* Apply to all tables */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+table th, table td {
+    padding: 16px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+table th {
+    background-color: #e9ecef;
+    font-weight: 600;
+    color: #495057;
+    border-top: 1px solid #dee2e6;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr:hover {
+    background-color: #f1f3f5;
+}

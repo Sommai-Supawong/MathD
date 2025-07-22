@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic and proof techniques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>1. (p ∧ q) ⇒ r</h1>
+            <table id="truthTable1">
+                <thead>
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>r</th>
+                        <th>p ∧ q</th>
+                        <th>(p ∧ q) ⇒ r</th>
+                    </tr>
+                </thead>
+                <tbody id="truthTableBody1"></tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <h1>2. (q ∧ r) ∧ (p ∨ r)</h1>
+            <table id="truthTable2">
+                <thead>
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>r</th>
+                        <th>q ∧ r</th>
+                        <th>p ∨ r</th>
+                        <th>(q ∧ r) ∧ (p ∨ r)</th>
+                    </tr>
+                </thead>
+                <tbody id="truthTableBody2"></tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <h1>3. (p ⇒ q) ⇔ (q ∨ p)</h1>
+            <table id="truthTable3">
+                <thead>
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p ⇒ q</th>
+                        <th>q ∨ p</th>
+                        <th>(p ⇒ q) ⇔ (q ∨ p)</th>
+                    </tr>
+                </thead>
+                <tbody id="truthTableBody3"></tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <h1>4. [p ∧ (p ⇒ q)] ⇒ q</h1>
+            <table id="truthTable4">
+                <thead>
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>p ⇒ q</th>
+                        <th>p ∧ (p ⇒ q)</th>
+                        <th>[p ∧ (p ⇒ q)] ⇒ q</th>
+                    </tr>
+                </thead>
+                <tbody id="truthTableBody4"></tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <h1>5. [(r ⇔ q) ∨ (p ⇒ q)] ⇒ (p ∧ r)</h1>
+            <table id="truthTable5">
+                <thead>
+                    <tr>
+                        <th>p</th>
+                        <th>q</th>
+                        <th>r</th>
+                        <th>r ⇔ q</th>
+                        <th>p ⇒ q</th>
+                        <th>(r ⇔ q) ∨ (p ⇒ q)</th>
+                        <th>p ∧ r</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody id="truthTableBody5"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
